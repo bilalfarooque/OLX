@@ -32,7 +32,7 @@
                 <img src="./images/olx-logo-vector.svg" alt="logo2" width="60">
             </div>
             <div id="location">
-                <img src="./images/icons8-search.svg" alt="search" width="20">
+                <img src="./images/icons8-search.svg" alt="search" width="15">
                 <select name="location" id="locate">
                     <option value="Pakistan" selected>Pakistan</option>
                     <option value="Azad Kashmir">Azad Kashmir</option>
@@ -43,21 +43,79 @@
                     <option value="Sindh">Sindh</option>
                 </select>
             </div>
-            <div id="search">
-                <input type="search" name="search" id="search" placeholder="Find Cars,  Mobile Phones & More ...... ">
-            </div>
-            <img src="./images/icons8-search black.svg" alt="black search" width="30">
+            <div id="search-container">
+                <input type="search" name="search" id="searchinput" placeholder="Find Cars,  Mobile Phones & More ...... ">
+                <div id="searchicon">
+                    <a href="http://google.com/search"><img src="./images/icons8-search black.svg" alt="black search" width="30"></a>
+                </div>
+            </div >
         </div>
     </header>
 
     <nav>
         <div id="nav">
+            <div class="category">
+
+                <select id="category" name="category">
+                    <option value="all" >All Categories</option>
+                    <option value="mobilephones">Mobiles</option>
+                    <option value="vehicles">Vehicles</option>
+                    <option value="home-decor">Home Decor</option>
+                    <!-- Add more categories as needed -->
+                </select>
+            </div>
+
+            <!-- <div class="categories-box">
+
+                <div class="mobilephones">
+                    <h3>Mobiles</h3>
+                    <ul>
+                        <li>Mobile Phones</li>
+                        <li>Accessories</li>
+                        <li>Smart Watches</li>
+                        <li>Tablets</li>
+                    </ul>
+                </div>
+                <div class="vehicles">
+                    <h3>Vehicles</h3>
+                    <ul>
+                        <li>Cars</li>
+                        <li>Bikes and Scooters</li>
+                        <li>Motorcycles</li>
+                        <li>Trucks, Buses and Vans</li>
+                    </ul>
+                </div>
+
+             <div class="home-decor">
+                <h3>Home Decor</h3>
+                <ul>
+                    <li>Sofa & Chairs </li>
+                    <li>Beds & Wardrobes</li>
+                    <li>Dining Tables & Sets</li>
+                    <li>Kitchen Appliance</li>
+                    </ul>
+             </div>
+            </div>
+        --> 
+            <div id="navbar"></div>
             <ul>
-                <li><a href="./">Mobile phones</a></li>
-                <li><a href=""></a></li>
+                <li><a href="./mobile-phones.html">Mobile phones</a></li>
+                <li><a href="./cars.html">Cars</a></li>
+                <li><a href="./motocycles.html">Motocycles</a></li>
+                <li><a href="./houses.html">Houses</a></li>
+                <li><a href="tv-video-audio.html">TV-Video-Audio</a></li>
+                <li><a href="tablets.html">Tablets</a></li>
+                <li><a href="land-plots.html">Land & Plots</a></li>
                 
-        </div>
+            </div>
+
+            </div>
     </nav>
+   <div class="banner">
+
+       <img src="./images/olxbanner.jpg" alt="banner" >
+   </div>
+
 </body>
 
 </html>
