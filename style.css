@@ -47,11 +47,13 @@ header {
 }
 #botheader{
     display: flex;
+    justify-content: center;
     align-items: center;
 
 }
 #logo2{
-    margin: 12px;
+    margin-left: 2px;
+    margin-right: 50px;
 }
 #location{
     position: relative;
@@ -60,7 +62,7 @@ header {
   
     position: absolute;
     top: 50%;
-    left: 10px;
+    left: 20px;
     transform: translateY(-50%);
 }
 #location select{
@@ -88,6 +90,49 @@ header {
     transform: translateY(-50%);
 
 }
+
+.sell{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 81px;
+    height: 35px;
+    margin-left: 20px;
+    border-left: 5px solid yellow;
+    border-top: 5px solid aquamarine;
+    border-right: 5px solid rgb(73, 73, 218);
+    border-bottom: 5px solid rgb(240, 63, 63);
+    border-radius: 25px;
+    background: white;
+}
+.sell span a{
+    color: black;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: 500;
+    
+}
+
+/* unvisited link */
+.login a:link {
+    color: #094850;
+    font-size: medium;
+    font-weight: 600;
+    margin-left: 15px;
+    
+   
+    left: 20px;
+  }
+  
+  /* visited link */
+  .login a:visited {
+    color: green;
+  }
+
+  /* hover link */
+  .login a:hover{
+    text-decoration: none;
+  }
 
 ul {
   list-style-type: none;
