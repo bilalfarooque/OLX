@@ -1,6 +1,6 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 body {
   background: white;
@@ -89,15 +89,14 @@ header {
 }
 
 .sell {
-    background-image: url(./images/iconSellBorder_noinline.d9eebe038fbfae9f90fd61d971037e02.svg);
+  background-image: url(./images/iconSellBorder_noinline.d9eebe038fbfae9f90fd61d971037e02.svg);
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 16px 25px;
   background-repeat: no-repeat;
   margin-left: 20px;
-   
-} 
+}
 
 .sell span a {
   color: black;
@@ -179,23 +178,37 @@ ul {
   margin: 30px 0;
 }
 
-.cat{
-  width: 80%;
-  margin: auto;
-  justify-content: space-around;
+.allcategories {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  flex-wrap: wrap;
+  width: 90vw;
   
+  margin: auto;
 }
 
-.cat span{
- margin: 18px ;
+.cat {
+  text-align: center;
+  margin: 20px 20px;
+  width: 8%;
+  height: 150px;
+}
+
+.spany {
+  padding: 7px 0;
+  width: 80px;
+  font-weight: 600;
+  margin: auto;
+  text-transform: capitalize;
 
 }
 
 h2 {
-  text-align: left ;
+  text-align: left;
   display: block;
   width: 80%;
-  margin: 30px 80px; 
+  margin: 30px 80px;
   color: #002f34;
 }
 
@@ -215,45 +228,38 @@ h2 {
   border: 1px solid grey;
   border-radius: 2px;
 }
-.image img{
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
+.image img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
 
-.image{
+.image {
   height: 50%;
-  
 }
 
-.detail{
+.detail {
   display: block;
   color: #002f34;
-
-
 }
 
-.l1{
+.l1 {
   display: flex;
-  margin: 18px 15px ;
+  margin: 18px 15px;
   font-weight: 600;
   justify-content: space-between;
-
 }
 
-.l2{
-
-    font-weight: 100;
-    font-size: medium;
-    margin-left: 15px;
-    padding-bottom : 15px;
+.l2 {
+  font-weight: 100;
+  font-size: medium;
+  margin-left: 15px;
+  padding-bottom: 15px;
 }
-.l3,.l4{
-    font-weight: 100;
-    font-size: small;
-    margin-left: 15px;
-    color: rgb(167, 162, 162);
+.l3,
+.l4 {
+  font-weight: 100;
+  font-size: small;
+  margin-left: 15px;
+  color: rgb(167, 162, 162);
 }
-
-
-
