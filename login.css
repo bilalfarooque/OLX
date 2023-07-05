@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.complete{
+    margin-top: 10vh;
+ 
+}
+
 body{
     background-color: white;
 }
@@ -55,9 +66,6 @@ form{
        transition:.3s ease all ;
        margin-left: 15px;
 }
-
-
-
 
 .foot{
     padding: 25px;

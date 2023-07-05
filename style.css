@@ -81,6 +81,11 @@ header {
   border: 2px solid black;
   border-radius: 5px;
 }
+
+#search-container input::placeholder{
+  padding-left: 10px;
+}
+
 #searchicon {
   position: absolute;
   top: 50%;
