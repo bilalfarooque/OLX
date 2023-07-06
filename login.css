@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 
 *{
     box-sizing: border-box;
@@ -8,7 +10,8 @@
 
 .complete{
     margin-top: 10vh;
- 
+    font-family: 'Roboto', sans-serif;
+    color: #002f34;
 }
 
 body{
@@ -28,10 +31,9 @@ form{
 .toplog{
     text-align: center;
     align-items: center;
-    font-family: 'Roboto', sans-serif;
-    color: #002f34;
-    font-weight: bolder;
-    font-size: large;
+   
+    font-weight: 500;
+    font-size: medium;
     
 }
 
@@ -46,34 +48,51 @@ form{
     padding: 6px;
     justify-content: center;
     align-items: center;
-}
+    text-decoration: none;
+} 
 
 .link{
-    width: 70%;
-    height: 40px;
-    margin: 6px;
+    display: flex;
+
     border: 2px solid #002f34;
     border-radius: 5px;
-    display: flex;
-    justify-content: center;
+    height: 6vh;
+    justify-content: left;
     align-items: center;
-    text-align: center;
+    width: 19vw;
+    color: #002f34;
+    text-decoration: none;
+    
+}
+.link:hover{
+    border: 3.5px solid #002f34;
+
 }
 
-.link  a{
-       text-decoration: none;
-       color: #002f34;
-       transition:.3s ease all ;
-       margin-left: 15px;
+.imglog{
+    margin-left: 40px;
+    padding-right: 30px;
 }
+
+.social a{
+    color: #002f34;
+    text-decoration: none;
+    font-weight: bolder;
+    margin: 5px;
+    
+}
+
 
 .foot{
-    padding: 25px;
-    text-align: center;
-    color: rgba(0,47,52,.64);
+padding: 25px;
+text-align: center;
+color: rgba(0,47,52,.64);
 }
+
 .foot a{
-    color: blue;
-}
+color: blue;
+} 
 
 
+
+ 
