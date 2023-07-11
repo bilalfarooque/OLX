@@ -33,7 +33,7 @@
             </div>
             <div id="location">
                 <img src="./images/icons8-search.svg" alt="search" width="15">
-                <select name="location" id="locate">
+                <select title="location" name="location" id="locate">
                     <option value="Pakistan" selected>Pakistan</option>
                     <option value="Azad Kashmir">Azad Kashmir</option>
                     <option value="Baluchistan">Baluchistan</option>
@@ -67,7 +67,7 @@
         <div id="nav">
             <div class="category">
 
-                <select id="category" name="category">
+                <select title="category" id="category" name="category">
                     <option value="all">All Categories</option>
                     <option value="mobilephones">Mobiles</option>
                     <option value="vehicles">Vehicles</option>
@@ -155,14 +155,397 @@
 
             <div class="section2b">
                 <div class="secnav">
-                    <div class="num">10,000+ ads</div>
+                    <div class="num">
+                        <p>10,000+ ads</p>
+                    </div>
+
+                    <div class="sorting-container">
+
+
+                        <div class="check">
+                            <input type="checkbox" name="check" id="check"> <label for="check">Only with photos</label>
+                        </div>
+
+                        <div class="view-container">
+                            <div class="view">VIEW</div>
+                            <div class="imgview">
+                                <img src="./images/icons8-hamburger-menu.svg" alt="menu" width="22">
+                            </div>
+                            <div class="icongrid">
+                                <img src="./images/iconGrid_noinline.20d3115f90d4e01862afb7d21be83420.svg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="sort">
+                            <div id="sortby">SORT BY :</div>
+                            <div class="sorting">
+                                <select title="sort" name="sort" id="sort">
+                                    <option value="newly  listed" selected>Newly Listed</option>
+                                    <option value="most relevant">Most Relevant</option>
+                                    <option value="lowest price">Lowest Price</option>
+                                    <option value="highest price">Highest Price</option>
+                                </select>
+                            </div>
+                        </div>
+
+                    </div>
+
                 </div>
+
+                <div class="inads">
+                    <ul>
+                        <li>
+                            <article>
+                                <div class="image">
+                                    <div>
+                                        <p>Featured</p>
+                                    </div>
+                
+                                    <img src="./images/mobile1.jpeg" alt="mobile1">
+                                </div>
+                                <div class="detail">
+                                    <div class="l1">
+                                        <span>Rs 32,000</span>
+                                        <img src="./images/icons8-favourite-50.png" width="40" alt="fav">
+                                    </div>
+
+                                    <div class="l2">
+                                        <p class="tag">Oppo Reno 2 4/64 </p>
+                                    </div>
+
+                                    <div class="l34">
+
+                                        <div class="l3">
+                                            <p class="area">North Nazimabad, Karachi</p>
+                                        </div>
+
+                                        <div class="l4">
+                                            <p class="tf"> 2 weeks ago</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="buttons">
+                                        <button type="submit" id="phone" onclick="window.location.href = 'login.html';">
+
+                                            <div>
+                                                <img src="./images/icons8-phone-30.png" alt="phone">
+                                            </div>
+                                            <div>
+                                                <span>Call</span>
+                                            </div>
+
+                                        </button>
+
+                                        <button type="submit" id="chat" onclick="window.location.href = 'login.html';">
+                                            <div>
+                                                <img src="./images/icons8-chat-50.png" alt="chat" width="30">
+                                            </div>
+                                            <div>
+                                                 <span>Chat</span>
+                                            </div>
+                                        </button>
+
+
+                                    </div>
+
+                                </div>
+                            </article>
+                        </li>
+                        <li>
+                            <article>
+                                <div class="image">
+                                    <div>
+                                        <p>Featured</p>
+                                    </div>
+                
+                                    <img src="./images/mobile2.jpeg" alt="mobile1">
+                                </div>
+                                <div class="detail">
+                                    <div class="l1">
+                                        <span>Rs 120,000</span>
+                                        <img src="./images/icons8-favourite-50.png" width="40" alt="fav">
+                                    </div>
+
+                                    <div class="l2">
+                                        <p class="tag">Infinix neo7 </p>
+                                    </div>
+
+                                    <div class="l34">
+
+                                        <div class="l3">
+                                            <p class="area">Landhi, Karachi</p>
+                                        </div>
+
+                                        <div class="l4">
+                                            <p class="tf"> 2 weeks ago</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="buttons">
+                                        <button type="submit" id="phone" onclick="window.location.href = 'login.html';">
+
+                                            <div>
+                                                <img src="./images/icons8-phone-30.png" alt="phone">
+                                            </div>
+                                            <div>
+                                                <span>Call</span>
+                                            </div>
+
+                                        </button>
+
+                                        <button type="submit" id="chat" onclick="window.location.href = 'login.html';">
+                                            <div>
+                                                <img src="./images/icons8-chat-50.png" alt="chat" width="30">
+                                            </div>
+                                            <div>
+                                                 <span>Chat</span>
+                                            </div>
+                                        </button>
+
+
+                                    </div>
+
+                                </div>
+                            </article>
+                        </li>
+                        <li>
+                            <article>
+                                <div class="image">
+                                    <div>
+                                        <p>Featured</p>
+                                    </div>
+                
+                                    <img src="./images/mobile3.jpeg" alt="mobile1">
+                                </div>
+                                <div class="detail">
+                                    <div class="l1">
+                                        <span>Rs 150,000</span>
+                                        <img src="./images/icons8-favourite-50.png" width="40" alt="fav">
+                                    </div>
+
+                                    <div class="l2">
+                                        <p class="tag">iphone 11 pro </p>
+                                    </div>
+
+                                    <div class="l34">
+
+                                        <div class="l3">
+                                            <p class="area">DHA City, Lahore</p>
+                                        </div>
+
+                                        <div class="l4">
+                                            <p class="tf"> 2 weeks ago</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="buttons">
+                                        <button type="submit" id="phone" onclick="window.location.href = 'login.html';">
+
+                                            <div>
+                                                <img src="./images/icons8-phone-30.png" alt="phone">
+                                            </div>
+                                            <div>
+                                                <span>Call</span>
+                                            </div>
+
+                                        </button>
+
+                                        <button type="submit" id="chat" onclick="window.location.href = 'login.html';">
+                                            <div>
+                                                <img src="./images/icons8-chat-50.png" alt="chat" width="30">
+                                            </div>
+                                            <div>
+                                                 <span>Chat</span>
+                                            </div>
+                                        </button>
+
+
+                                    </div>
+
+                                </div>
+                            </article>
+                        </li>
+                        <li>
+                            <article>
+                                <div class="image">
+                                    <div>
+                                        <p>Featured</p>
+                                    </div>
+                
+                                    <img src="./images/mobile4.jpeg" alt="mobile1">
+                                </div>
+                                <div class="detail">
+                                    <div class="l1">
+                                        <span>Rs 32,000</span>
+                                        <img src="./images/icons8-favourite-50.png" width="40" alt="fav">
+                                    </div>
+
+                                    <div class="l2">
+                                        <p class="tag">Oppo Reno 2 4/64 </p>
+                                    </div>
+
+                                    <div class="l34">
+
+                                        <div class="l3">
+                                            <p class="area">North Nazimabad, Karachi</p>
+                                        </div>
+
+                                        <div class="l4">
+                                            <p class="tf"> 2 weeks ago</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="buttons">
+                                        <button type="submit" id="phone" onclick="window.location.href = 'login.html';">
+
+                                            <div>
+                                                <img src="./images/icons8-phone-30.png" alt="phone">
+                                            </div>
+                                            <div>
+                                                <span>Call</span>
+                                            </div>
+
+                                        </button>
+
+                                        <button type="submit" id="chat" onclick="window.location.href = 'login.html';">
+                                            <div>
+                                                <img src="./images/icons8-chat-50.png" alt="chat" width="30">
+                                            </div>
+                                            <div>
+                                                 <span>Chat</span>
+                                            </div>
+                                        </button>
+
+
+                                    </div>
+
+                                </div>
+                            </article>
+                        </li>
+                        <li>
+                            <article>
+                                <div class="image">
+                                    <div>
+                                        <p>Featured</p>
+                                    </div>
+                
+                                    <img src="./images/mobile5.jpeg" alt="mobile1">
+                                </div>
+                                <div class="detail">
+                                    <div class="l1">
+                                        <span>Rs 32,000</span>
+                                        <img src="./images/icons8-favourite-50.png" width="40" alt="fav">
+                                    </div>
+
+                                    <div class="l2">
+                                        <p class="tag">Oppo Reno 2 4/64 </p>
+                                    </div>
+
+                                    <div class="l34">
+
+                                        <div class="l3">
+                                            <p class="area">North Nazimabad, Karachi</p>
+                                        </div>
+
+                                        <div class="l4">
+                                            <p class="tf"> 2 weeks ago</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="buttons">
+                                        <button type="submit" id="phone" onclick="window.location.href = 'login.html';">
+
+                                            <div>
+                                                <img src="./images/icons8-phone-30.png" alt="phone">
+                                            </div>
+                                            <div>
+                                                <span>Call</span>
+                                            </div>
+
+                                        </button>
+
+                                        <button type="submit" id="chat" onclick="window.location.href = 'login.html';">
+                                            <div>
+                                                <img src="./images/icons8-chat-50.png" alt="chat" width="30">
+                                            </div>
+                                            <div>
+                                                 <span>Chat</span>
+                                            </div>
+                                        </button>
+
+
+                                    </div>
+
+                                </div>
+                            </article>
+                        </li>
+                        <li>
+                            <article>
+                                <div class="image">
+                                    <div>
+                                        <p>Featured</p>
+                                    </div>
+                
+                                    <img src="./images/mobile6.jpeg" alt="mobile1">
+                                </div>
+                                <div class="detail">
+                                    <div class="l1">
+                                        <span>Rs 32,000</span>
+                                        <img src="./images/icons8-favourite-50.png" width="40" alt="fav">
+                                    </div>
+
+                                    <div class="l2">
+                                        <p class="tag">Oppo Reno 2 4/64 </p>
+                                    </div>
+
+                                    <div class="l34">
+
+                                        <div class="l3">
+                                            <p class="area">North Nazimabad, Karachi</p>
+                                        </div>
+
+                                        <div class="l4">
+                                            <p class="tf"> 2 weeks ago</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="buttons">
+                                        <button type="submit" id="phone" onclick="window.location.href = 'login.html';">
+
+                                            <div>
+                                                <img src="./images/icons8-phone-30.png" alt="phone">
+                                            </div>
+                                            <div>
+                                                <span>Call</span>
+                                            </div>
+
+                                        </button>
+
+                                        <button type="submit" id="chat" onclick="window.location.href = 'login.html';">
+                                            <div>
+                                                <img src="./images/icons8-chat-50.png" alt="chat" width="30">
+                                            </div>
+                                            <div>
+                                                 <span>Chat</span>
+                                            </div>
+                                        </button>
+
+
+                                    </div>
+
+                                </div>
+                            </article>
+                        </li>
+                    </ul>
             </div>
 
 
-
-
         </div>
+
+
+
+
+    </div>
 
 
     </div>

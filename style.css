@@ -10,8 +10,8 @@ body {
 
 header {
   background: #f7f8f8;
-  width: 100%;
-  margin: 0 auto;
+  
+  margin: auto;
   overflow: hidden;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
@@ -23,10 +23,11 @@ header {
 }
 
 .topheader {
+  width: 80%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  margin-left: 5%;
+  margin: auto;
 }
 .topheader p {
   font-size: x-small;
@@ -52,8 +53,11 @@ header {
 }
 #botheader {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  width: 80%;
+  margin: auto;
+  
 }
 #logo2 {
   margin-left: 2px;
@@ -116,18 +120,19 @@ header {
 }
 
 /* unvisited link */
-.login a:link {
-  color: #094850;
-  font-size: medium;
+.login a{
+  color: #002f34;
+  font-size: large;
   font-weight: 600;
   margin-left: 15px;
 
   left: 20px;
 }
 
-/* visited link */
+/* visited link 
+*/
 .login a:visited {
-  color: green;
+  color: #002f34;
 }
 
 /* hover link */
@@ -144,17 +149,15 @@ ul {
 
 #nav {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   box-shadow: 0px 2px 5px -2px grey;
-  width: 100%;
-  margin: 55px 0px;
+  width: 90%;
+  margin: 55px 150px;
   padding-top: 60px;
   overflow: hidden;
-
-
- 
   
+
 }
 
 #nav li {
