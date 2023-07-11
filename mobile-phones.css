@@ -10,7 +10,7 @@ body {
 
 header {
   background: #f7f8f8;
-  
+
   margin: auto;
   overflow: hidden;
   position: fixed; /* Set the navbar to fixed position */
@@ -57,7 +57,6 @@ header {
   align-items: center;
   width: 80%;
   margin: auto;
-  
 }
 #logo2 {
   margin-left: 2px;
@@ -91,7 +90,7 @@ header {
   border-radius: 5px;
 }
 
-#search-container input::placeholder{
+#search-container input::placeholder {
   padding-left: 10px;
 }
 
@@ -120,7 +119,7 @@ header {
 }
 
 /* unvisited link */
-.login a{
+.login a {
   color: #002f34;
   font-size: large;
   font-weight: 600;
@@ -149,14 +148,13 @@ ul {
 
 #nav {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   box-shadow: 0px 2px 5px -2px grey;
-  width: 80%;
-  margin: 55px 0px 20px 180px;
+  width: 100%;
+  margin: 55px 0px 20px 0px;
   padding-top: 60px;
   overflow: hidden;
-  
 
 }
 
@@ -188,164 +186,144 @@ ul {
   border: none;
   color: #002f34;
 }
-  .section1{
-    width: 80%;
-    margin: auto;
-  }
+.section1 {
+  width: 80%;
+  margin: auto;
+}
 
-  .page{
-    text-decoration: none;
-    display: flex;
-    justify-content: flex-start;
+.page {
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-start;
+}
 
-  }
+.page a {
+  text-decoration: none;
+  padding-right: 6px;
+  color: #5f6465;
+}
 
-  .page a{
-    text-decoration: none;
-    padding-right: 6px;
-    color: #5f6465;
-  }
+.head {
+  color: #002f34;
+  width: 30vw;
+  display: flex;
+  justify-content: flex-start;
+  margin: 10px 0;
+}
+.section2 {
+  width: 80%;
+  margin: auto;
+  display: flex;
+}
 
-  .head{
-    color: #002f34;
-    width: 30vw;
-    display: flex;
-    justify-content: flex-start;
-    margin: 10px 0;
+.section2a {
+  width: 25%;
+}
 
-  }
-  .section2{
-    width: 80%;
-    margin: auto;
-    display: flex;
-  }
+.filter {
+  color: #002f34;
+  margin: 12px 0;
+}
 
-  .section2a{
-    width: 25%;
+.categories a {
+  text-decoration: none;
+  color: #71797a;
+  margin: 50px;
+}
+.categories a:hover {
+  text-decoration: none;
+  color: #002f34;
+  font-weight: 600;
+}
 
-  }
+.allcat {
+  margin-left: 10px;
+}
 
-  .filter{
-    color: #002f34;
-    margin: 12px 0;
-    
-  }
- 
-  .categories a{
-    text-decoration: none;
-    color: #71797a;
-    margin: 50px;
-  }
-  .categories a:hover{
-    text-decoration: none;
-    color: #002f34;
-    font-weight: 600;
-    
-  }
+.mob {
+  margin-left: 20px;
+  color: #002f34;
+  font-weight: 700;
+}
 
-  .
+.list {
+  margin-left: 40px;
+}
 
-  .allcat{
-    margin-left: 10px;
-  }
-  
-  .mob{
-    margin-left: 20px;
-    color: #002f34;
-    font-weight: 700;
-  }
+.section2b {
+  width: 75%;
+}
 
-  .list{
-    margin-left: 40px;
-  }
+.secnav {
+  display: flex;
+  justify-content: space-between;
+}
 
-  .section2b{
-    width: 75%;
-  }
-
-  .secnav{
-    display: flex;
-    justify-content: space-between;
-    
-  }
-
-  .num{
-    
-    clear: both;
-    height: 7vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 10px;
-
-  }
-  .num p{
-    font-weight: 600;
-    background-color: #c8f8f6;
-    width: 7vw;
-    border: 1px transparent;
-    border-radius: 5px;
-    text-align: center;
-    
-  }
-.sorting-container{
+.num {
+  clear: both;
+  height: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+.num p {
+  font-weight: 600;
+  background-color: #c8f8f6;
+  width: 7vw;
+  border: 1px transparent;
+  border-radius: 5px;
+  text-align: center;
+}
+.sorting-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
-  
 }
-  
-.check{
+
+.check {
   margin: 1px 6px;
   height: 16px;
-
 }
 
-.view-container{
+.view-container {
   display: flex;
   border-right: 1px solid #5f6465;
   border-left: 1px solid #5f6465;
   justify-content: center;
   align-items: center;
-  
-  
 }
-.view{
+.view {
   margin: 1px 6px;
-
 }
 
-.imgview{
+.imgview {
   width: 50%;
   background-color: #c8f8f6;
   border-radius: 50%;
   margin: 1px 6px;
-  
 }
 
-.imgview img{
+.imgview img {
   margin: 10px;
 }
 
-.icongrid{
+.icongrid {
   margin: 1px 6px;
- 
 }
 
-.sort{
+.sort {
   display: flex;
   margin: 1px 6px;
-  
 }
 
-#sortby{
+#sortby {
   margin: 1px 6px;
   font-weight: 600;
   color: #002f34;
 }
 
-.sorting select{
+.sorting select {
   border: none;
   font-size: medium;
 }
@@ -354,17 +332,15 @@ ul {
   width: 100%;
   height: 22vh;
   margin: 0 10px;
-  
 }
 
-article{
+article {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  
 }
 
-.inads li{
+.inads li {
   margin-bottom: 5px;
   border: 1px solid rgb(192, 189, 189);
   border-radius: 8px;
@@ -374,17 +350,15 @@ article{
   height: 21.9vh;
   width: 33%;
   position: relative;
-  
 }
 
-.image p{
+.image p {
   position: absolute;
   top: 20px;
   left: 20px;
   background-color: rgb(230, 164, 32);
   padding: 5px;
   border-radius: 5px;
-
 }
 
 .image img {
@@ -400,13 +374,13 @@ article{
 
 .l1 {
   display: flex;
-  margin: 20px 30px 1px 15px ;
+  margin: 20px 30px 1px 15px;
   font-size: x-large;
   font-weight: 600;
   justify-content: space-between;
 }
 
-.l1 img:hover{
+.l1 img:hover {
   background-color: #336d74;
   border-radius: 3px;
 }
@@ -417,19 +391,18 @@ article{
   margin-left: 15px;
   padding-bottom: 30px;
 }
-.l34{
+.l34 {
   display: flex;
-
 }
 .l3,
 .l4 {
   font-weight: 100;
-  font-size: medium;  
+  font-size: medium;
   margin-left: 15px;
   color: #4d5051;
 }
 
-.buttons{
+.buttons {
   display: flex;
   margin: 20px 1px 15px 15px;
   gap: 2%;
@@ -471,7 +444,7 @@ article{
 }
 */
 
-#chat{
+#chat {
   background-color: #002f34;
   height: 3rem;
   width: 6rem;
@@ -482,18 +455,18 @@ article{
   justify-content: space-around;
   border-radius: 5px;
 }
-#chat span{
+#chat span {
   color: white;
   font-weight: 600;
   font-size: larger;
 }
 
-#chat:hover{
+#chat:hover {
   border: 4px solid #002f34;
   border-radius: 5px;
-} 
+}
 
-#phone{
+#phone {
   background-color: #ffffff;
   height: 3rem;
   width: 6rem;
@@ -505,13 +478,13 @@ article{
   border-radius: 5px;
 }
 
-#phone span{
+#phone span {
   color: #002f34;
   font-weight: 600;
   font-size: larger;
 }
 
-#phone:hover{
+#phone:hover {
   border: 4px solid #002f34;
   border-radius: 5px;
 }
